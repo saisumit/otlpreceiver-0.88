@@ -5,6 +5,7 @@ package logs // import "go.opentelemetry.io/collector/receiver/otlpreceiver/inte
 
 import (
 	"context"
+	"fmt"
 
 	"go.opentelemetry.io/collector/consumer"
 	"go.opentelemetry.io/collector/pdata/plog/plogotlp"
